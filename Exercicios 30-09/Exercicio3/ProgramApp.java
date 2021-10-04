@@ -17,7 +17,7 @@ public class ProgramApp {
 		contato1.addTelefones(telefone2);
 		contato1.addTelefones(telefone3);
 		
-		System.out.println(String.format(contato1.toString() + contato1.getEndereco().toString()));
+		System.out.println(String.format(contato1.toString()));
 		contato1.mostrarTelefones();
 		
 		
