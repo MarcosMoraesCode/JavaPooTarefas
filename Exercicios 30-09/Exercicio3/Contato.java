@@ -48,7 +48,7 @@ public class Contato {
 	
 	public String toString() {
 		
-		return " Nome: " + this.nome;
+		return this.getEndereco().toString() + " Nome: " + this.nome;
 	}
 	
 	
